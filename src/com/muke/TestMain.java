@@ -1,6 +1,6 @@
-package com.yanlp;
+package com.muke;
 
-import com.yanlp.array.Array;
+import com.muke.array.Array;
 
 /**
  * Program Name: Array

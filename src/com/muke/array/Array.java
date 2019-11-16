@@ -1,4 +1,4 @@
-package com.yanlp.array;
+package com.muke.array;
 
 /**
  * 数组
