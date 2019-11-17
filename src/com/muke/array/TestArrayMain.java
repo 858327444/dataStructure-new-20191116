@@ -25,5 +25,8 @@ public class TestArrayMain {
 
         System.out.println(array);
 
+        array.removeLast();
+        System.out.println(array);
+
     }
 }
