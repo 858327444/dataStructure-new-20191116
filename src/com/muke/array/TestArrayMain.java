@@ -1,6 +1,5 @@
-package com.muke;
+package com.muke.array;
 
-import com.muke.array.Array;
 
 /**
  * Program Name: Array
@@ -9,7 +8,7 @@ import com.muke.array.Array;
  * @author yanlp
  * @version 1.0
  */
-public class TestMain {
+public class TestArrayMain {
     public static void main(String[] args) {
         Array<Integer> array = new Array<>();
         for (int i = 0; i < 10; i++) {

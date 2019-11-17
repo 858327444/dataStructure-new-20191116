@@ -82,6 +82,16 @@ public class Array<E> {
         return data[index];
     }
 
+    // 查找第一个元素
+    public E getFirst() {
+        return get(0);
+    }
+
+    // 查找最后一个元素
+    public E getLast() {
+        return get(size - 1);
+    }
+
     // 设置索引位置的元素
     public void set(int index, E e) {
         if (index < 0 || index >= size) {
@@ -116,7 +126,7 @@ public class Array<E> {
             throw new IllegalArgumentException("Delete fail.Require  index >= 0 and index <= size ");
         }
         E ret = data[index];
-        for (int i = index; i <= size-1; i++) {
+        for (int i = index; i < size-1; i++) {
             data[i] = data[i + 1];
         }
         size--;
