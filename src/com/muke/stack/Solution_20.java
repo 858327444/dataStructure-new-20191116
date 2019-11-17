@@ -1,6 +1,5 @@
 package com.muke.stack;
 
-import java.util.Stack;
 
 /**
  * 序号20
@@ -42,7 +41,7 @@ import java.util.Stack;
 public  class Solution_20 {
 
     public boolean isValid(String str) {
-        Stack<Character> stack = new Stack<>();
+        Stack<Character> stack = new ArrayStack<>();
         for (int i = 0; i < str.length() ; i++) {
             char c = str.charAt(i);
             if (c == '(' || c == '[' || c == '{') {
