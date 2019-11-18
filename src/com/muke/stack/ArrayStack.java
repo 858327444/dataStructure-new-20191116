@@ -3,6 +3,7 @@ package com.muke.stack;
 import com.muke.array.Array;
 
 /**
+ * 基于数组实现的栈
  * Program Name: dataStructure-new-20191116
  * Created by yanlp on 2019-11-17
  *
