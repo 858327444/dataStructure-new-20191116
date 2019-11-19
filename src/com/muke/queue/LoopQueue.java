@@ -13,7 +13,7 @@ public class LoopQueue<E> implements Queue<E> {
     private E[] data;
     // 队首元素所在索引
     private int front;
-    // 队尾元素所在索引
+    // 下一个新的队尾元素索引
     private int tail;
     // 元素个数
     private int size;
